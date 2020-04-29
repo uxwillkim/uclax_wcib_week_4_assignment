@@ -1,24 +1,190 @@
 <!doctype html>
 <html class="" lang="en">
 
-  <head>
-    <meta charset="utf-8">
+<head>
+  <meta charset="utf-8">
 
-    <title>Week 4</title>
+  <title>Week 4</title>
 
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
-  </head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/scripts.js"></script>
+</head>
 
-  <body>
-    <a href="https://getbootstrap.com/" target="_blank">https://getbootstrap.com/</a>
-	</body>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <a class="navbar-brand" href="#">Adopt-a-Mountain</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#mtncall">Find yours<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#mtnmany">Our community</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#mtnvalley">Pay it forward</a>
+          </li>
+        </ul>
+        <form class="form-inline mt-2 mt-md-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+  </header>
 
-</html>
+  <main role="main">
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/>
+            <image href="/images/magic.jpg"></svg>
+              <div class="container">
+                <div class="carousel-caption text-left">
+                  <h1>There’s a mountain for you</h1>
+                  <p>Help save mountains all over the world by adopting your very own! From small buttes to towering mountain ranges, there’s a mountain calling your name.</p>
+                  <p><a class="btn btn-lg btn-primary" href="#" role="button">Find my mountain</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/>
+                <image href="/images/gather.jpg"></image>
+              </svg>
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>Mountains saved, together</h1>
+                  <p>Adopt-a-Mountain members exist all across the globe; join the exclusive membership club and see how people just like you are changing the world!</p>
+                  <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/>
+                <image href="/images/hollywood.jpg"></image>
+              </svg>
+              <div class="container">
+                <div class="carousel-caption text-right">
+                  <h1>Mountains under the stars</h1>
+                  <p>Oprah, Barack Obama, Banksy, Elmo, Madonna, are just a few of the hundreds of celebrities who have joined the cause. Learn about what inspired them to love mountains like they love the limelight</p>
+                  <p><a class="btn btn-lg btn-primary" href="#" role="button">Explore celebrities</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+
+        <!-- How to steps
+        ================================================== -->
+        <!-- Wrap the rest of the page in another container to center all the content. -->
+        <div class="container marketing">
+          <h1 align="center">4 easy steps to claim your mountain</h1><br>
+          <!-- Four columns of text below the carousel -->
+          <div class="row">
+            <div class="col-lg-3">
+              <img class="bd-placeholder-img rounded-circle" src="/images/phone.jpg" alt="woman holding smartphone, selecting photos" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/>
+              <h3>Step 1: Search</h3>
+              <p>Take a short and fun quiz to get matched to a handful of mountains fit just for you. Finding a mountain couldn’t be easier!</p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-3">
+              <img class="bd-placeholder-img rounded-circle" src="/images/choice.jpg" alt="two doors with different colors" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/>
+              <h3>Step 2: Select</h3>
+              <p>We give you a small selection of mountain options, you pick the one that speaks to your heart. Match-made in mountain heaven!</p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-3">
+              <img class="bd-placeholder-img rounded-circle" src="/images/purchase.jpg" alt="man holding credit card" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/>
+              <h3>Step 3: Purchase</h3>
+              <p>Once you pick your mountain, checkout is as easy as providing online payment, along with social security number and 401(k) access. Easy peasy!</p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-3">
+              <img class="bd-placeholder-img rounded-circle" src="/images/brag.jpg" alt="girl holding sign that says I'm here you not" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/>
+              <h3>Step 4: Enjoy</h3>
+              <p>Gloat to all your friends and family, really anyone, that you own a freak’n mountain. It’s a beautiful thing!</p>
+            </div><!-- /.col-lg-4 -->
+          </div><!-- /.row -->
+
+
+          <!-- START THE FEATURETTES -->
+
+          <hr class="featurette-divider">
+
+          <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading">The mountains are calling. <br><span class="text-muted">Adopt one today.</span></h2>
+              <p class="lead">Mountains are not unlike any other beloved household pet; like your loyal pup, Oreo, or your huggable bunny, Fluffers, mountains are looking for someone to take care of them like a child. Find one just for you.</p>
+              <p><a class="btn btn-secondary" href="#" role="button">Find my mountain &raquo;</a></p>
+            </div>
+            <div class="col-md-5">
+              <img id="mtncall" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="images/range.jpg" alt="wide shot photo of mountain landscape" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/>
+            </div>
+          </div>
+
+          <hr class="featurette-divider">
+
+          <div class="row featurette">
+            <div class="col-md-7 order-md-2">
+              <h2 class="featurette-heading">Mountains are many. <br><span class="text-muted">So are our members.</span></h2>
+              <p class="lead">Join thousands of members who have developed a sacred space for connecting, collaborating, sharing inspirations and stories. Find a fellow member in your area and start connecting today.
+              </p>
+              <p><a class="btn btn-secondary" href="#" role="button">Connect Me &raquo;</a></p>
+            </div>
+            <div class="col-md-5 order-md-1">
+              <img id="mtnmany" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="/images/group.jpg" alt="group of young people talking outdoors" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/>
+            </div>
+          </div>
+
+          <hr class="featurette-divider">
+
+          <div class="row featurette">
+            <div class="col-md-7">
+              <h2 class="featurette-heading">One mountain. <span class="text-muted">One valley.</span></h2>
+              <p class="lead">Through our philanthropic initiative, Mountains Need Valley, we donate an enchanting valley to a child-in-need for every mountain that is adopted. Help a child won’t you? Or a valley, whichever.</p>
+              <p><a class="btn btn-secondary" href="#" role="button">Learn more &raquo;</a></p>
+            </div>
+            <div class="col-md-5">
+              <img id="mtnvalley" class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="/images/valley.jpg" alt="lush green valley ground" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Lush valley</title><rect width="100%" height="100%" fill="#eee"/>
+            </div>
+          </div>
+
+          <!-- /END THE FEATURETTES -->
+        </div><!-- /.container -->
+
+
+        <!-- FOOTER -->
+        <br>
+        <footer class="container">
+          <p class="float-right"><a href="#">Back to top</a></p>
+          <p>&copy; 2017-2019 Adopt-a-Mountain, Fake Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+        </footer>
+      </main>
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+    </body>
+
+    </html>
